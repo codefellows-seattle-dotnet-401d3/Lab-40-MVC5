@@ -1,34 +1,43 @@
-# Lab 40: MVC 5 Tutorial
+# MVC 4
 
-## Directions
-Complete all of the stpes located in this tutorial 
+## Overview
+This is a web app using asp.net 4. It is a movie app that allowa you to create,
+update and delete movies. 
 
-(Getting started all the way through adding Validation)
-[MVC 5 Tutorial](https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started)
+## Tools Used
+Microsoft Visual Studio Community Version 15.5.7
 
-## Rubric
-*Unit Tests are not required for this lab*
+C#
 
-## Rubric
-- 7pts: Program meets all requirements described in Lab directions
+ASP.Net Core
 
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	35       | Program runs as expected, no exceptions during execution |
-	25       | Program meets all of the functionality requirements described above // Program runs/compiles, Program contains logic/process errors|
-	20       | Program meets most of the functionality requirements descibed above // Program runs/compiles, but throws exceptions during execution |
-	15       | Program missing most of the functionality requirements descibed above // Program runs/compiles |
-	10       | Missing Readme Document // Readme Document does not meet standards |
-	0       | Program does not compile/run. Build Errors // Required naming conventions not met |
-	0       | No Submission |
+xUnit
 
-- 3pts: Code meets industry standards
-	- These points are only awardable if you score at minimum a 5/7 on above criteria
+Bootstrap
 
-	Points  | Reasoning | 
-	 ------------ | :-----------: | 
-	15      | Code meets Industry Standards // methods and variables namings are appropriate // Selective and iterative statements are used appropriately, Fundamentals are propertly executed // Clearly and cleanly commented |
-	10       | syntax for naming conventions are not correct (camelCasing and PascalCasing are used appropriately) // slight errors in use of fundamentals // Missing some comments |
-	5       | Inappropriate naming conventions, and/or inappropriate use of fundamentals // Code is not commented  |
-	0       | No Submission or incomplete submission |
+## Getting Started
 
+Clone this repository to your local machine.
+```
+$ git clone https://github.com/philipwerner/Lab-40-MVC5.git
+```
+Once downloaded, cd into the ```Lab-40-MVC5``` directory.
+```
+$ cd Lab-40-MVC5
+```
+The cd into ```Lab40``` directory.
+```
+$ cd Lab40
+```
+The cd into the second ```Lab40``` directory.
+```
+$ cd Lab40
+```
+Then run .NET build.
+```
+$ dotnet build
+```
+Once that is complete, run the program.
+```
+$ dotnet run
+```
